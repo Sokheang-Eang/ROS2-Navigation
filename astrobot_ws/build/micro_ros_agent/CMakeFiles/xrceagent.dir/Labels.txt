@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/astrox/astrobot_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/astrox/astrobot_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

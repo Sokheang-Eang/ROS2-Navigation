@@ -1,0 +1,9 @@
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/uninstall.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/astrobot_description_uninstall.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/test.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/edit_cache.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/rebuild_cache.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/list_install_components.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/install.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/install/local.dir
+/home/astrox/astrobot_ws/build/astrobot_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+source;share/astrobot_base/environment/ament_prefix_path.sh
+source;share/astrobot_base/environment/path.sh

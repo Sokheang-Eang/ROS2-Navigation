@@ -1,0 +1,16 @@
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/config/ekf.yaml
+/home/astrox/astrobot_ws/install/astrobot_base/share/ament_index/resource_index/package_run_dependencies/astrobot_base
+/home/astrox/astrobot_ws/install/astrobot_base/share/ament_index/resource_index/parent_prefix_path/astrobot_base
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/environment/ament_prefix_path.sh
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/environment/ament_prefix_path.dsv
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/environment/path.sh
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/environment/path.dsv
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/local_setup.bash
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/local_setup.sh
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/local_setup.zsh
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/local_setup.dsv
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.dsv
+/home/astrox/astrobot_ws/install/astrobot_base/share/ament_index/resource_index/packages/astrobot_base
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/cmake/astrobot_baseConfig.cmake
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/cmake/astrobot_baseConfig-version.cmake
+/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.xml

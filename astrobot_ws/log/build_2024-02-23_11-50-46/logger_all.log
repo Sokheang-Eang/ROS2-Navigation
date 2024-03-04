@@ -1,0 +1,529 @@
+[0.977s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.977s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f28c3903940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f28c3dcb9d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f28c3dcb9d0>>)
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.033s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/astrox/astrobot_ws'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_base) by extension 'ros'
+[1.048s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astrobot_base' with type 'ros.ament_cmake' and name 'astrobot_base'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extension 'ignore_ament_install'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extensions ['colcon_pkg']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extension 'colcon_pkg'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extensions ['colcon_meta']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extension 'colcon_meta'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extensions ['ros']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_bringup) by extension 'ros'
+[1.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astrobot_bringup' with type 'ros.ament_cmake' and name 'astrobot_bringup'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extension 'ignore'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extension 'colcon_meta'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extensions ['ros']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_description) by extension 'ros'
+[1.050s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astrobot_description' with type 'ros.ament_cmake' and name 'astrobot_description'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_navigation) by extension 'ros'
+[1.051s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astrobot_navigation' with type 'ros.ament_cmake' and name 'astrobot_navigation'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extension 'ignore_ament_install'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extensions ['colcon_pkg']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extension 'colcon_pkg'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/astrobot_slam) by extension 'ros'
+[1.051s] DEBUG:colcon.colcon_core.package_identification:Package 'src/astrobot_slam' with type 'ros.ament_cmake' and name 'astrobot_slam'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.052s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[1.053s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.054s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.175s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/astrox/astrobot_ws/install
+[1.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /opt/ros/humble
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_target' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'astrobot_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.293s] DEBUG:colcon.colcon_core.verb:Building package 'astrobot_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/astrobot_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/astrobot_base', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/astrobot_base', 'symlink_install': False, 'test_result_base': None}
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'astrobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.307s] DEBUG:colcon.colcon_core.verb:Building package 'astrobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/astrobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/astrobot_bringup', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/astrobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_args' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_target' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'astrobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.321s] DEBUG:colcon.colcon_core.verb:Building package 'astrobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/astrobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/astrobot_description', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/astrobot_description', 'symlink_install': False, 'test_result_base': None}
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'astrobot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'astrobot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/astrobot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/astrobot_navigation', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/astrobot_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_args' from command line to 'None'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_target' from command line to 'None'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_clean_first' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'cmake_force_configure' from command line to 'False'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'ament_cmake_args' from command line to 'None'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.348s] Level 5:colcon.colcon_core.verb:set package 'astrobot_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.348s] DEBUG:colcon.colcon_core.verb:Building package 'astrobot_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/astrobot_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/astrobot_slam', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/astrobot_slam', 'symlink_install': False, 'test_result_base': None}
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.362s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.362s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.362s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.376s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.376s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astrox/astrobot_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astrox/astrobot_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/astrox/astrobot_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/astrobot_base' with build type 'ament_cmake'
+[1.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/astrobot_base'
+[1.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/astrobot_bringup' with build type 'ament_cmake'
+[1.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/astrobot_bringup'
+[1.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/astrobot_description' with build type 'ament_cmake'
+[1.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/astrobot_description'
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/astrobot_navigation' with build type 'ament_cmake'
+[1.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/astrobot_navigation'
+[1.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.640s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/astrobot_slam' with build type 'ament_cmake'
+[1.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/astrobot_slam'
+[1.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.697s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[1.698s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/micro_ros_setup'
+[1.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.755s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/astrox/astrobot_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[1.755s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/astrox/astrobot_ws/src/sllidar_ros2'
+[1.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_base -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_base
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_bringup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_bringup
+[1.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_description -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_description
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_navigation -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_navigation
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_slam -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_slam
+[1.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_setup
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/sllidar_ros2
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_base -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_base
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_base -- -j12 -l12
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_bringup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_bringup
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_bringup -- -j12 -l12
+[2.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_slam -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_slam
+[2.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_slam -- -j12 -l12
+[2.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_base -- -j12 -l12
+[2.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_bringup -- -j12 -l12
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_navigation -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_navigation
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_navigation -- -j12 -l12
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_base
+[2.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_bringup
+[2.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_slam -- -j12 -l12
+[2.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_description -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_description
+[2.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_description -- -j12 -l12
+[2.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_navigation -- -j12 -l12
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_slam
+[2.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_base)
+[2.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_base
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base' for CMake module files
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base' for CMake config files
+[2.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_base', 'cmake_prefix_path')
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.dsv'
+[2.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.sh'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/bin'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/lib/pkgconfig/astrobot_base.pc'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/lib/python3.10/site-packages'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/bin'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.ps1'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.sh'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.bash'
+[2.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.zsh'
+[2.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_base/share/colcon-core/packages/astrobot_base)
+[2.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_bringup)
+[2.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_navigation
+[2.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_bringup
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup' for CMake module files
+[2.326s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup' for CMake config files
+[2.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_bringup', 'cmake_prefix_path')
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.ps1'
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.dsv'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.sh'
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/bin'
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/lib/pkgconfig/astrobot_bringup.pc'
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/lib/python3.10/site-packages'
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/bin'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.ps1'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.dsv'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.sh'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.bash'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.zsh'
+[2.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_bringup/share/colcon-core/packages/astrobot_bringup)
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_description -- -j12 -l12
+[2.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_slam)
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_slam
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam' for CMake module files
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam' for CMake config files
+[2.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_slam', 'cmake_prefix_path')
+[2.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.sh'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/bin'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/lib/pkgconfig/astrobot_slam.pc'
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/lib/python3.10/site-packages'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/bin'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.sh'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.bash'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.zsh'
+[2.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_slam/share/colcon-core/packages/astrobot_slam)
+[2.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_base)
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base' for CMake module files
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base' for CMake config files
+[2.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_base', 'cmake_prefix_path')
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.dsv'
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/hook/cmake_prefix_path.sh'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/bin'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/lib/pkgconfig/astrobot_base.pc'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/lib/python3.10/site-packages'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_base/bin'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.dsv'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.sh'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.bash'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_base/share/astrobot_base/package.zsh'
+[2.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_base/share/colcon-core/packages/astrobot_base)
+[2.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_navigation)
+[2.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_navigation
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation' for CMake module files
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation' for CMake config files
+[2.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_navigation', 'cmake_prefix_path')
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.ps1'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.dsv'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.sh'
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/bin'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/lib/pkgconfig/astrobot_navigation.pc'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/lib/python3.10/site-packages'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/bin'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.sh'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.zsh'
+[2.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_navigation/share/colcon-core/packages/astrobot_navigation)
+[2.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_bringup)
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup' for CMake module files
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup' for CMake config files
+[2.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_bringup', 'cmake_prefix_path')
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/hook/cmake_prefix_path.sh'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/bin'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/lib/pkgconfig/astrobot_bringup.pc'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/lib/python3.10/site-packages'
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_bringup/bin'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.ps1'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.dsv'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.sh'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.bash'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_bringup/share/astrobot_bringup/package.zsh'
+[2.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_bringup/share/colcon-core/packages/astrobot_bringup)
+[2.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_description
+[2.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_slam)
+[2.649s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam' for CMake module files
+[2.649s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam' for CMake config files
+[2.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_slam', 'cmake_prefix_path')
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.ps1'
+[2.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.dsv'
+[2.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/hook/cmake_prefix_path.sh'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/bin'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/lib/pkgconfig/astrobot_slam.pc'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/lib/python3.10/site-packages'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_slam/bin'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.dsv'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.sh'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.bash'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.zsh'
+[2.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_slam/share/colcon-core/packages/astrobot_slam)
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_setup
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/micro_ros_setup -- -j12 -l12
+[2.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_navigation)
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation' for CMake module files
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation' for CMake config files
+[2.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_navigation', 'cmake_prefix_path')
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.ps1'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.dsv'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/hook/cmake_prefix_path.sh'
+[2.725s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/bin'
+[2.725s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/lib/pkgconfig/astrobot_navigation.pc'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/lib/python3.10/site-packages'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_navigation/bin'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.dsv'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.sh'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.zsh'
+[2.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_navigation/share/colcon-core/packages/astrobot_navigation)
+[2.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_description)
+[2.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/micro_ros_setup -- -j12 -l12
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_description
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description' for CMake module files
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description' for CMake config files
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_description', 'cmake_prefix_path')
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.ps1'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.dsv'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.sh'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/bin'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/lib/pkgconfig/astrobot_description.pc'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/lib/python3.10/site-packages'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/bin'
+[2.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.ps1'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.dsv'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.sh'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.bash'
+[2.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.zsh'
+[2.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_description/share/colcon-core/packages/astrobot_description)
+[2.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/micro_ros_setup
+[2.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astrobot_description)
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description' for CMake module files
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description' for CMake config files
+[2.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('astrobot_description', 'cmake_prefix_path')
+[2.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.ps1'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/hook/cmake_prefix_path.sh'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/bin'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/lib/pkgconfig/astrobot_description.pc'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/lib/python3.10/site-packages'
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/astrobot_description/bin'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.ps1'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.dsv'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.sh'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.bash'
+[2.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.zsh'
+[2.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/astrobot_description/share/colcon-core/packages/astrobot_description)
+[2.897s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/micro_ros_setup
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup' for CMake module files
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup' for CMake config files
+[2.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib'
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/bin'
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/bin'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/sllidar_ros2
+[2.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/sllidar_ros2 -- -j12 -l12
+[2.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.002s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup' for CMake module files
+[3.002s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup' for CMake config files
+[3.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/bin'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/micro_ros_setup/bin'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/sllidar_ros2 -- -j12 -l12
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/sllidar_ros2
+[3.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/sllidar_ros2
+[3.140s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2' for CMake module files
+[3.141s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2' for CMake config files
+[3.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/bin'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/bin'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2' for CMake module files
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2' for CMake config files
+[3.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[3.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[3.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[3.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[3.272s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib'
+[3.272s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/bin'
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/astrox/astrobot_ws/install/sllidar_ros2/bin'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[3.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/astrox/astrobot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[3.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.309s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.332s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.345s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/astrox/astrobot_ws/install/local_setup.ps1'
+[3.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/astrox/astrobot_ws/install/_local_setup_util_ps1.py'
+[3.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/astrox/astrobot_ws/install/setup.ps1'
+[3.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/astrox/astrobot_ws/install/local_setup.sh'
+[3.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/astrox/astrobot_ws/install/_local_setup_util_sh.py'
+[3.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/astrox/astrobot_ws/install/setup.sh'
+[3.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/astrox/astrobot_ws/install/local_setup.bash'
+[3.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/astrox/astrobot_ws/install/setup.bash'
+[3.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/astrox/astrobot_ws/install/local_setup.zsh'
+[3.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/astrox/astrobot_ws/install/setup.zsh'

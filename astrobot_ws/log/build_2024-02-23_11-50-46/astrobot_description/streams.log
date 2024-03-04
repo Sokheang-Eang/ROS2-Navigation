@@ -1,0 +1,40 @@
+[0.298s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_description -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_description
+[0.308s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.519s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.675s] -- Configuring done
+[0.681s] -- Generating done
+[0.683s] -- Build files have been written to: /home/astrox/astrobot_ws/build/astrobot_description
+[0.693s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_description -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_description
+[0.694s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_description -- -j12 -l12
+[0.835s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_description -- -j12 -l12
+[1.091s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_description
+[1.097s] -- Install configuration: ""
+[1.097s] -- Execute custom install script
+[1.097s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/launch/view_robot_launch.py
+[1.098s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/urdf/astrobot.urdf
+[1.098s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/rviz/description.rviz
+[1.098s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/config/joint_state.yaml
+[1.099s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Front_Lw.STL
+[1.099s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Front_Rw.STL
+[1.099s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Rear_Lw.STL
+[1.099s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Rear_Rw.STL
+[1.099s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/base_link.STL
+[1.100s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/sensor/camera_sensor.STL
+[1.100s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/sensor/lida_sensor.STL
+[1.100s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/package_run_dependencies/astrobot_description
+[1.100s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/parent_prefix_path/astrobot_description
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/ament_prefix_path.sh
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/ament_prefix_path.dsv
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/path.sh
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/path.dsv
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.bash
+[1.101s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.sh
+[1.102s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.zsh
+[1.102s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.dsv
+[1.102s] -- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.dsv
+[1.110s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/packages/astrobot_description
+[1.110s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/cmake/astrobot_descriptionConfig.cmake
+[1.110s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/cmake/astrobot_descriptionConfig-version.cmake
+[1.110s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.xml
+[1.217s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_description

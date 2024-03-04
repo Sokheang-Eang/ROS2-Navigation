@@ -1,0 +1,1 @@
+Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/sllidar_ros2 -- -j12 -l12

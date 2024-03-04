@@ -1,0 +1,6 @@
+Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_bringup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_bringup
+Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/astrobot_bringup -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/astrobot_bringup
+Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_bringup -- -j12 -l12
+Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_bringup -- -j12 -l12
+Invoking command in '/home/astrox/astrobot_ws/build/astrobot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_bringup
+Invoked command in '/home/astrox/astrobot_ws/build/astrobot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_bringup

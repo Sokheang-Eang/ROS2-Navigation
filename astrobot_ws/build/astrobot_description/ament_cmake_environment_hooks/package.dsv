@@ -1,0 +1,4 @@
+source;share/astrobot_description/local_setup.bash
+source;share/astrobot_description/local_setup.dsv
+source;share/astrobot_description/local_setup.sh
+source;share/astrobot_description/local_setup.zsh

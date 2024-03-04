@@ -1,0 +1,12 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/ExternalProject.cmake:2571 (message):
+  error: git version 1.6.5 or later required for --recursive flag with 'git
+  submodule ...': GIT_VERSION_STRING=''
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/ExternalProject.cmake:2670 (_ep_get_git_submodules_recurse)
+  /usr/share/cmake-3.22/Modules/ExternalProject.cmake:3716 (_ep_add_download_command)
+  cmake/SuperBuild.cmake:25 (ExternalProject_Add)
+  CMakeLists.txt:29 (include)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/astrox/astrobot_ws/build/micro_ros_agent/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,21 @@
+[0.124s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_slam -- -j12 -l12
+[0.153s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_slam -- -j12 -l12
+[0.176s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_slam
+[0.182s] -- Install configuration: ""
+[0.184s] -- Execute custom install script
+[0.184s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/ament_index/resource_index/package_run_dependencies/astrobot_slam
+[0.185s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/ament_index/resource_index/parent_prefix_path/astrobot_slam
+[0.185s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/environment/ament_prefix_path.sh
+[0.185s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/environment/ament_prefix_path.dsv
+[0.186s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/environment/path.sh
+[0.186s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/environment/path.dsv
+[0.186s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/local_setup.bash
+[0.186s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/local_setup.sh
+[0.186s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/local_setup.zsh
+[0.187s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/local_setup.dsv
+[0.187s] -- Symlinking: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.dsv
+[0.192s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/ament_index/resource_index/packages/astrobot_slam
+[0.193s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/cmake/astrobot_slamConfig.cmake
+[0.193s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/cmake/astrobot_slamConfig-version.cmake
+[0.194s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_slam/share/astrobot_slam/package.xml
+[0.241s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_slam

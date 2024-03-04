@@ -1,0 +1,2 @@
+Invoking command in '/home/astrox/astrobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/micro_ros_setup -- -j12 -l12
+Invoked command in '/home/astrox/astrobot_ws/build/micro_ros_setup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/micro_ros_setup -- -j12 -l12

@@ -1,0 +1,24 @@
+[0.219s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_navigation -- -j12 -l12
+[0.252s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/astrobot_navigation -- -j12 -l12
+[0.292s] Invoking command in '/home/astrox/astrobot_ws/build/astrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_navigation
+[0.317s] -- Install configuration: ""
+[0.317s] -- Execute custom install script
+[0.317s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/launch/astrobot_navigation_launch.py
+[0.317s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/rviz/astrobot_navigation.rviz
+[0.317s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/config/navigation.yaml
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/ament_index/resource_index/package_run_dependencies/astrobot_navigation
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/ament_index/resource_index/parent_prefix_path/astrobot_navigation
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/environment/ament_prefix_path.sh
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/environment/ament_prefix_path.dsv
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/environment/path.sh
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/environment/path.dsv
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/local_setup.bash
+[0.318s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/local_setup.sh
+[0.319s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/local_setup.zsh
+[0.319s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/local_setup.dsv
+[0.319s] -- Symlinking: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.dsv
+[0.321s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/ament_index/resource_index/packages/astrobot_navigation
+[0.321s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/cmake/astrobot_navigationConfig.cmake
+[0.321s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/cmake/astrobot_navigationConfig-version.cmake
+[0.321s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/astrobot_navigation/share/astrobot_navigation/package.xml
+[0.469s] Invoked command in '/home/astrox/astrobot_ws/build/astrobot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/astrobot_navigation

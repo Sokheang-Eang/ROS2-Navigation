@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/astrox/astrobot_ws/build/astrobot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/launch/view_robot_launch.py
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/urdf/astrobot.urdf
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/rviz/description.rviz
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/config/joint_state.yaml
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Front_Lw.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Front_Rw.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Rear_Lw.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/Rear_Rw.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/mecanum/base_link.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/sensor/camera_sensor.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/meshes/sensor/lida_sensor.STL
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/package_run_dependencies/astrobot_description
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/parent_prefix_path/astrobot_description
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/path.sh
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/environment/path.dsv
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.bash
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.sh
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.zsh
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/local_setup.dsv
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.dsv
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/ament_index/resource_index/packages/astrobot_description
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/cmake/astrobot_descriptionConfig.cmake
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/cmake/astrobot_descriptionConfig-version.cmake
+-- Symlinking: /home/astrox/astrobot_ws/install/astrobot_description/share/astrobot_description/package.xml

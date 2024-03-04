@@ -1,0 +1,72 @@
+[0.072s] Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/sllidar_ros2
+[0.081s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.213s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.218s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.256s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.583s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.691s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.761s] -- Configuring done
+[0.772s] -- Generating done
+[0.774s] -- Build files have been written to: /home/astrox/astrobot_ws/build/sllidar_ros2
+[0.821s] Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/astrox/astrobot_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/sllidar_ros2
+[0.822s] Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/sllidar_ros2 -- -j12 -l12
+[0.851s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[0.854s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[0.865s] [ 10%] Built target sllidar_client
+[0.877s] [100%] Built target sllidar_node
+[0.893s] Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/astrox/astrobot_ws/build/sllidar_ros2 -- -j12 -l12
+[0.933s] Invoking command in '/home/astrox/astrobot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/sllidar_ros2
+[0.938s] -- Install configuration: ""
+[0.938s] -- Execute custom install script
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[0.939s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[0.940s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[0.941s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[0.942s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[0.942s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[0.942s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[0.942s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[0.942s] -- Symlinking: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[0.949s] -- Up-to-date symlink: /home/astrox/astrobot_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[0.951s] Invoked command in '/home/astrox/astrobot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/astrox/astrobot_ws/build/sllidar_ros2

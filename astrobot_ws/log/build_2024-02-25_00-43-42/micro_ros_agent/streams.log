@@ -1,0 +1,14 @@
+[0.043s] Invoking command in '/home/astrox/astrobot_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/astrox/astrobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_agent
+[0.070s] [31mCMake Error at /usr/share/cmake-3.22/Modules/ExternalProject.cmake:2571 (message):
+[0.070s]   error: git version 1.6.5 or later required for --recursive flag with 'git
+[0.070s]   submodule ...': GIT_VERSION_STRING=''
+[0.070s] Call Stack (most recent call first):
+[0.071s]   /usr/share/cmake-3.22/Modules/ExternalProject.cmake:2670 (_ep_get_git_submodules_recurse)
+[0.071s]   /usr/share/cmake-3.22/Modules/ExternalProject.cmake:3716 (_ep_add_download_command)
+[0.071s]   cmake/SuperBuild.cmake:25 (ExternalProject_Add)
+[0.071s]   CMakeLists.txt:29 (include)
+[0.071s] 
+[0.071s] [0m
+[0.071s] -- Configuring incomplete, errors occurred!
+[0.071s] See also "/home/astrox/astrobot_ws/build/micro_ros_agent/CMakeFiles/CMakeOutput.log".
+[0.072s] Invoked command in '/home/astrox/astrobot_ws/build/micro_ros_agent' returned '1': AMENT_PREFIX_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/astrox/astrobot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/astrox/astrobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_agent

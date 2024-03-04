@@ -1,0 +1,1156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (-) JobUnselected: {'identifier': 'astrobot_base'}
+[0.000132] (-) JobUnselected: {'identifier': 'astrobot_bringup'}
+[0.000151] (-) JobUnselected: {'identifier': 'astrobot_description'}
+[0.000166] (-) JobUnselected: {'identifier': 'astrobot_navigation'}
+[0.000180] (-) JobUnselected: {'identifier': 'astrobot_slam'}
+[0.000194] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000207] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000222] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000239] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/astrox/astrobot_ws/install/micro_ros_msgs')])}
+[0.000256] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.059676] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.059953] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/astrox/astrobot_ws/src/uros/micro_ros_msgs', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_msgs'], 'cwd': '/home/astrox/astrobot_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astrox'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrox'), ('OLDPWD', '/home/astrox'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/astrox/astrobot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astrox'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrox:@/tmp/.ICE-unix/1633,unix/astrox:/tmp/.ICE-unix/1633'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb3675f9_d191_4f4d_a22d_e687b6748ab0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrox/astrobot_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble')]), 'shell': False}
+[0.067052] (micro_ros_msgs) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.099434] (-) TimerEvent: {}
+[0.182464] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199515] (-) TimerEvent: {}
+[0.254963] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.263603] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299602] (-) TimerEvent: {}
+[0.314632] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.320441] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.320767] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.321377] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.324156] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.380325] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.386204] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.386450] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.386800] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393123] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399722] (-) TimerEvent: {}
+[0.499927] (-) TimerEvent: {}
+[0.522732] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600025] (-) TimerEvent: {}
+[0.606409] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.610900] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.618606] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.667449] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700127] (-) TimerEvent: {}
+[0.707055] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800244] (-) TimerEvent: {}
+[0.900469] (-) TimerEvent: {}
+[0.914939] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.000582] (-) TimerEvent: {}
+[1.054865] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100705] (-) TimerEvent: {}
+[1.200893] (-) TimerEvent: {}
+[1.227896] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.245804] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.247799] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.268521] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.268650] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.268707] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.268756] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.284485] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.301003] (-) TimerEvent: {}
+[1.313164] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.317864] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.320583] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.325720] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.347004] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.348616] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/astrox/astrobot_ws/build/micro_ros_msgs\n'}
+[1.353048] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.354538] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[1.354567] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astrox/astrobot_ws/build/micro_ros_msgs', '--', '-j12', '-l12'], 'cwd': '/home/astrox/astrobot_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astrox'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrox'), ('OLDPWD', '/home/astrox'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/astrox/astrobot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astrox'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrox:@/tmp/.ICE-unix/1633,unix/astrox:/tmp/.ICE-unix/1633'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb3675f9_d191_4f4d_a22d_e687b6748ab0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrox/astrobot_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble')]), 'shell': False}
+[1.381230] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.388031] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.394514] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.401118] (-) TimerEvent: {}
+[1.501367] (-) TimerEvent: {}
+[1.594785] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.595378] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[1.595561] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[1.595639] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[1.595795] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[1.595948] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.597859] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.598297] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.601474] (-) TimerEvent: {}
+[1.617651] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[1.674281] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[1.682203] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.682547] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.682728] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.701588] (-) TimerEvent: {}
+[1.712358] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[1.712625] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[1.712759] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[1.770872] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.796578] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.801682] (-) TimerEvent: {}
+[1.804383] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.804526] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.804792] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.901770] (-) TimerEvent: {}
+[1.944444] (micro_ros_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[1.946903] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[1.947170] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[2.001874] (-) TimerEvent: {}
+[2.005184] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[2.007735] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[2.007963] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[2.018446] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[2.018639] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[2.018723] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[2.101966] (-) TimerEvent: {}
+[2.193524] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[2.202155] (-) TimerEvent: {}
+[2.236410] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[2.277968] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[2.295015] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[2.301033] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[2.302242] (-) TimerEvent: {}
+[2.335902] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.358543] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[2.361265] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[2.363657] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.380501] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[2.402351] (-) TimerEvent: {}
+[2.412133] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[2.422696] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.439041] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.464635] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.502474] (-) TimerEvent: {}
+[2.507055] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.602595] (-) TimerEvent: {}
+[2.692573] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.703850] (-) TimerEvent: {}
+[2.748289] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.764239] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.796102] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.803970] (-) TimerEvent: {}
+[2.810659] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.848702] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.861998] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[2.875567] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.904075] (-) TimerEvent: {}
+[3.004290] (-) TimerEvent: {}
+[3.104517] (-) TimerEvent: {}
+[3.204736] (-) TimerEvent: {}
+[3.304954] (-) TimerEvent: {}
+[3.310600] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[3.323971] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[3.324325] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[3.324433] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[3.405053] (-) TimerEvent: {}
+[3.429313] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.457256] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[3.471286] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.471506] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.471597] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.505199] (-) TimerEvent: {}
+[3.543898] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.544041] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.544425] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.567765] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.567922] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[3.567981] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.576046] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.605266] (-) TimerEvent: {}
+[3.631142] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[3.637216] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/astrox/astrobot_ws/build/micro_ros_msgs'], 'cwd': '/home/astrox/astrobot_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astrox'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrox'), ('OLDPWD', '/home/astrox'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/astrox/astrobot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astrox'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrox:@/tmp/.ICE-unix/1633,unix/astrox:/tmp/.ICE-unix/1633'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb3675f9_d191_4f4d_a22d_e687b6748ab0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrox/astrobot_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble')]), 'shell': False}
+[3.643555] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.643849] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[3.643953] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.644034] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.644108] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[3.644161] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[3.644227] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[3.644278] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.644352] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.644403] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[3.644454] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[3.644524] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[3.644578] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[3.644647] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[3.644700] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[3.644769] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[3.644828] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[3.644898] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[3.644966] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[3.645013] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[3.645076] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[3.645190] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[3.645274] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[3.645395] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[3.645582] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[3.645653] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.645721] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.645769] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.645818] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[3.645889] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[3.645942] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[3.645991] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.646057] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.646196] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.646274] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.646325] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.646376] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.646449] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.646506] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[3.646556] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[3.646628] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[3.646679] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[3.646729] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[3.646798] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[3.646850] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.646961] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.647030] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[3.647175] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.647253] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.647306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.647381] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.647432] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[3.647482] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[3.647554] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[3.647606] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[3.647656] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[3.647730] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[3.647788] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[3.647837] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[3.647888] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[3.647957] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[3.648009] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[3.648081] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[3.648142] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.648193] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.648243] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.648317] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.648370] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[3.648420] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.648471] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.648541] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.648592] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.648704] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.648765] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.648836] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.648889] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.648940] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[3.649012] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[3.649063] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[3.649114] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.649184] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.649234] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.649301] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.649556] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.649624] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[3.649724] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.649791] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[3.649855] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[3.649921] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[3.650014] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[3.650243] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[3.650300] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[3.650351] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[3.650427] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[3.650503] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[3.650554] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.650605] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[3.650678] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[3.650731] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[3.650782] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[3.650854] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[3.650906] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[3.650956] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[3.651031] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[3.651117] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.651186] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.651250] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.651302] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.651372] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.651423] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.677429] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[3.677561] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[3.677622] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[3.677672] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[3.677722] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[3.677770] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[3.677817] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[3.680883] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.681033] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.681132] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.681299] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.681414] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.681591] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.681664] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.681834] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/astrox/astrobot_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[3.681902] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[3.681968] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[3.682031] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[3.682188] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[3.682282] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[3.682350] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[3.682419] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[3.682495] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[3.682579] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[3.682660] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[3.682751] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[3.682834] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[3.682914] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[3.682992] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[3.683078] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[3.683156] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[3.683233] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[3.683343] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[3.683453] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[3.683543] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.683637] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.683724] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.683819] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.683969] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.684065] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.684151] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.684243] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.684335] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.684422] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.684515] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.684601] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.684694] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.684780] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.684872] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.684959] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.685043] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.685124] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.685205] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.685291] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.685375] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.685460] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.685545] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.685628] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[3.685697] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[3.685769] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/astrox/astrobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[3.687248] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.705368] (-) TimerEvent: {}
+[3.805571] (-) TimerEvent: {}
+[3.900294] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[3.900921] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[3.905652] (-) TimerEvent: {}
+[3.961128] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[3.961371] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/astrox/astrobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/astrox/astrobot_ws/install/micro_ros_agent'], 'cwd': '/home/astrox/astrobot_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astrox'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrox'), ('OLDPWD', '/home/astrox'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/astrox/astrobot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astrox'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrox:@/tmp/.ICE-unix/1633,unix/astrox:/tmp/.ICE-unix/1633'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb3675f9_d191_4f4d_a22d_e687b6748ab0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs:/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrox/astrobot_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs:/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble')]), 'shell': False}
+[3.966850] (micro_ros_agent) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[4.002867] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.005755] (-) TimerEvent: {}
+[4.008266] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.054951] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.060755] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.060955] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.061252] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.097607] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.102393] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.105855] (-) TimerEvent: {}
+[4.157387] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.163390] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.163612] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.163956] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.194830] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.197038] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.197513] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/astrox/astrobot_ws/build/micro_ros_agent\n'}
+[4.200131] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[4.200529] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[4.200785] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astrox/astrobot_ws/build/micro_ros_agent', '--', '-j12', '-l12'], 'cwd': '/home/astrox/astrobot_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'astrox'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/astrox'), ('OLDPWD', '/home/astrox'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/astrox/astrobot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astrox'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astrox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astrox:@/tmp/.ICE-unix/1633,unix/astrox:/tmp/.ICE-unix/1633'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cb3675f9_d191_4f4d_a22d_e687b6748ab0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs:/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/astrox/astrobot_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/astrox/astrobot_ws/install/micro_ros_msgs:/home/astrox/astrobot_ws/install/sllidar_ros2:/home/astrox/astrobot_ws/install/micro_ros_setup:/home/astrox/astrobot_ws/install/astrobot_slam:/home/astrox/astrobot_ws/install/astrobot_navigation:/home/astrox/astrobot_ws/install/astrobot_description:/home/astrox/astrobot_ws/install/astrobot_bringup:/home/astrox/astrobot_ws/install/astrobot_base:/opt/ros/humble')]), 'shell': False}
+[4.205956] (-) TimerEvent: {}
+[4.232320] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[4.280349] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[4.293285] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[4.306187] (-) TimerEvent: {}
+[4.406645] (-) TimerEvent: {}
+[4.506862] (-) TimerEvent: {}
+[4.607189] (-) TimerEvent: {}
+[4.707627] (-) TimerEvent: {}
+[4.807967] (-) TimerEvent: {}
+[4.908400] (-) TimerEvent: {}
+[5.008782] (-) TimerEvent: {}
+[5.109210] (-) TimerEvent: {}
+[5.209442] (-) TimerEvent: {}
+[5.309658] (-) TimerEvent: {}
+[5.410097] (-) TimerEvent: {}
+[5.510308] (-) TimerEvent: {}
+[5.610610] (-) TimerEvent: {}
+[5.710924] (-) TimerEvent: {}
+[5.811252] (-) TimerEvent: {}
+[5.911563] (-) TimerEvent: {}
+[6.012011] (-) TimerEvent: {}
+[6.112272] (-) TimerEvent: {}
+[6.212669] (-) TimerEvent: {}
+[6.313089] (-) TimerEvent: {}
+[6.413320] (-) TimerEvent: {}
+[6.513633] (-) TimerEvent: {}
+[6.614083] (-) TimerEvent: {}
+[6.714352] (-) TimerEvent: {}
+[6.814562] (-) TimerEvent: {}
+[6.914883] (-) TimerEvent: {}
+[7.015314] (-) TimerEvent: {}
+[7.115737] (-) TimerEvent: {}
+[7.216036] (-) TimerEvent: {}
+[7.316284] (-) TimerEvent: {}
+[7.416710] (-) TimerEvent: {}
+[7.517129] (-) TimerEvent: {}
+[7.617540] (-) TimerEvent: {}
+[7.717946] (-) TimerEvent: {}
+[7.818365] (-) TimerEvent: {}
+[7.918662] (-) TimerEvent: {}
+[8.018986] (-) TimerEvent: {}
+[8.119432] (-) TimerEvent: {}
+[8.219851] (-) TimerEvent: {}
+[8.320268] (-) TimerEvent: {}
+[8.420692] (-) TimerEvent: {}
+[8.521113] (-) TimerEvent: {}
+[8.621536] (-) TimerEvent: {}
+[8.721836] (-) TimerEvent: {}
+[8.822181] (-) TimerEvent: {}
+[8.922681] (-) TimerEvent: {}
+[9.022907] (-) TimerEvent: {}
+[9.123142] (-) TimerEvent: {}
+[9.223576] (-) TimerEvent: {}
+[9.323837] (-) TimerEvent: {}
+[9.424252] (-) TimerEvent: {}
+[9.524683] (-) TimerEvent: {}
+[9.625107] (-) TimerEvent: {}
+[9.725518] (-) TimerEvent: {}
+[9.825939] (-) TimerEvent: {}
+[9.926194] (-) TimerEvent: {}
+[10.026447] (-) TimerEvent: {}
+[10.126669] (-) TimerEvent: {}
+[10.226979] (-) TimerEvent: {}
+[10.327307] (-) TimerEvent: {}
+[10.427744] (-) TimerEvent: {}
+[10.528148] (-) TimerEvent: {}
+[10.628510] (-) TimerEvent: {}
+[10.728942] (-) TimerEvent: {}
+[10.829330] (-) TimerEvent: {}
+[10.929579] (-) TimerEvent: {}
+[11.029808] (-) TimerEvent: {}
+[11.130020] (-) TimerEvent: {}
+[11.230259] (-) TimerEvent: {}
+[11.330541] (-) TimerEvent: {}
+[11.430835] (-) TimerEvent: {}
+[11.531280] (-) TimerEvent: {}
+[11.631595] (-) TimerEvent: {}
+[11.732040] (-) TimerEvent: {}
+[11.832446] (-) TimerEvent: {}
+[11.932714] (-) TimerEvent: {}
+[12.033134] (-) TimerEvent: {}
+[12.133349] (-) TimerEvent: {}
+[12.233776] (-) TimerEvent: {}
+[12.334216] (-) TimerEvent: {}
+[12.434434] (-) TimerEvent: {}
+[12.534822] (-) TimerEvent: {}
+[12.635266] (-) TimerEvent: {}
+[12.735682] (-) TimerEvent: {}
+[12.836103] (-) TimerEvent: {}
+[12.936448] (-) TimerEvent: {}
+[13.036688] (-) TimerEvent: {}
+[13.136903] (-) TimerEvent: {}
+[13.237258] (-) TimerEvent: {}
+[13.337503] (-) TimerEvent: {}
+[13.437843] (-) TimerEvent: {}
+[13.538291] (-) TimerEvent: {}
+[13.638569] (-) TimerEvent: {}
+[13.738887] (-) TimerEvent: {}
+[13.839264] (-) TimerEvent: {}
+[13.939687] (-) TimerEvent: {}
+[14.039979] (-) TimerEvent: {}
+[14.140398] (-) TimerEvent: {}
+[14.240809] (-) TimerEvent: {}
+[14.341227] (-) TimerEvent: {}
+[14.441598] (-) TimerEvent: {}
+[14.541923] (-) TimerEvent: {}
+[14.642326] (-) TimerEvent: {}
+[14.742614] (-) TimerEvent: {}
+[14.842919] (-) TimerEvent: {}
+[14.943341] (-) TimerEvent: {}
+[15.043867] (-) TimerEvent: {}
+[15.144167] (-) TimerEvent: {}
+[15.244394] (-) TimerEvent: {}
+[15.344659] (-) TimerEvent: {}
+[15.444977] (-) TimerEvent: {}
+[15.545390] (-) TimerEvent: {}
+[15.645721] (-) TimerEvent: {}
+[15.746182] (-) TimerEvent: {}
+[15.846393] (-) TimerEvent: {}
+[15.946697] (-) TimerEvent: {}
+[16.047041] (-) TimerEvent: {}
+[16.147477] (-) TimerEvent: {}
+[16.247877] (-) TimerEvent: {}
+[16.348234] (-) TimerEvent: {}
+[16.448705] (-) TimerEvent: {}
+[16.548948] (-) TimerEvent: {}
+[16.649254] (-) TimerEvent: {}
+[16.749520] (-) TimerEvent: {}
+[16.849808] (-) TimerEvent: {}
+[16.950186] (-) TimerEvent: {}
+[17.050538] (-) TimerEvent: {}
+[17.150826] (-) TimerEvent: {}
+[17.251275] (-) TimerEvent: {}
+[17.351715] (-) TimerEvent: {}
+[17.452056] (-) TimerEvent: {}
+[17.552423] (-) TimerEvent: {}
+[17.652802] (-) TimerEvent: {}
+[17.753217] (-) TimerEvent: {}
+[17.853522] (-) TimerEvent: {}
+[17.953963] (-) TimerEvent: {}
+[18.054330] (-) TimerEvent: {}
+[18.154548] (-) TimerEvent: {}
+[18.254840] (-) TimerEvent: {}
+[18.355276] (-) TimerEvent: {}
+[18.455694] (-) TimerEvent: {}
+[18.556108] (-) TimerEvent: {}
+[18.656529] (-) TimerEvent: {}
+[18.756754] (-) TimerEvent: {}
+[18.857186] (-) TimerEvent: {}
+[18.957496] (-) TimerEvent: {}
+[19.057870] (-) TimerEvent: {}
+[19.158292] (-) TimerEvent: {}
+[19.258507] (-) TimerEvent: {}
+[19.358727] (-) TimerEvent: {}
+[19.459156] (-) TimerEvent: {}
+[19.559575] (-) TimerEvent: {}
+[19.659839] (-) TimerEvent: {}
+[19.760178] (-) TimerEvent: {}
+[19.860625] (-) TimerEvent: {}
+[19.961037] (-) TimerEvent: {}
+[20.061446] (-) TimerEvent: {}
+[20.161862] (-) TimerEvent: {}
+[20.262237] (-) TimerEvent: {}
+[20.362454] (-) TimerEvent: {}
+[20.462712] (-) TimerEvent: {}
+[20.563019] (-) TimerEvent: {}
+[20.663306] (-) TimerEvent: {}
+[20.763557] (-) TimerEvent: {}
+[20.863855] (-) TimerEvent: {}
+[20.964133] (-) TimerEvent: {}
+[21.064553] (-) TimerEvent: {}
+[21.164961] (-) TimerEvent: {}
+[21.265209] (-) TimerEvent: {}
+[21.365505] (-) TimerEvent: {}
+[21.465941] (-) TimerEvent: {}
+[21.566196] (-) TimerEvent: {}
+[21.666420] (-) TimerEvent: {}
+[21.766689] (-) TimerEvent: {}
+[21.867102] (-) TimerEvent: {}
+[21.967523] (-) TimerEvent: {}
+[22.067945] (-) TimerEvent: {}
+[22.168169] (-) TimerEvent: {}
+[22.268394] (-) TimerEvent: {}
+[22.368653] (-) TimerEvent: {}
+[22.468904] (-) TimerEvent: {}
+[22.569264] (-) TimerEvent: {}
+[22.669545] (-) TimerEvent: {}
+[22.769976] (-) TimerEvent: {}
+[22.870335] (-) TimerEvent: {}
+[22.970550] (-) TimerEvent: {}
+[23.070892] (-) TimerEvent: {}
+[23.171331] (-) TimerEvent: {}
+[23.271755] (-) TimerEvent: {}
+[23.371978] (-) TimerEvent: {}
+[23.472513] (-) TimerEvent: {}
+[23.572766] (-) TimerEvent: {}
+[23.673121] (-) TimerEvent: {}
+[23.773423] (-) TimerEvent: {}
+[23.873776] (-) TimerEvent: {}
+[23.974151] (-) TimerEvent: {}
+[24.074444] (-) TimerEvent: {}
+[24.174859] (-) TimerEvent: {}
+[24.275278] (-) TimerEvent: {}
+[24.375490] (-) TimerEvent: {}
+[24.475924] (-) TimerEvent: {}
+[24.576206] (-) TimerEvent: {}
+[24.676634] (-) TimerEvent: {}
+[24.777060] (-) TimerEvent: {}
+[24.877357] (-) TimerEvent: {}
+[24.977799] (-) TimerEvent: {}
+[25.078054] (-) TimerEvent: {}
+[25.178330] (-) TimerEvent: {}
+[25.278638] (-) TimerEvent: {}
+[25.379071] (-) TimerEvent: {}
+[25.479488] (-) TimerEvent: {}
+[25.579772] (-) TimerEvent: {}
+[25.680214] (-) TimerEvent: {}
+[25.780641] (-) TimerEvent: {}
+[25.881054] (-) TimerEvent: {}
+[25.981408] (-) TimerEvent: {}
+[26.081848] (-) TimerEvent: {}
+[26.182273] (-) TimerEvent: {}
+[26.282705] (-) TimerEvent: {}
+[26.382961] (-) TimerEvent: {}
+[26.483340] (-) TimerEvent: {}
+[26.583760] (-) TimerEvent: {}
+[26.684175] (-) TimerEvent: {}
+[26.784390] (-) TimerEvent: {}
+[26.884741] (-) TimerEvent: {}
+[26.985105] (-) TimerEvent: {}
+[27.085438] (-) TimerEvent: {}
+[27.185873] (-) TimerEvent: {}
+[27.286295] (-) TimerEvent: {}
+[27.386704] (-) TimerEvent: {}
+[27.487121] (-) TimerEvent: {}
+[27.587356] (-) TimerEvent: {}
+[27.687746] (-) TimerEvent: {}
+[27.788167] (-) TimerEvent: {}
+[27.888500] (-) TimerEvent: {}
+[27.988830] (-) TimerEvent: {}
+[28.089270] (-) TimerEvent: {}
+[28.189484] (-) TimerEvent: {}
+[28.289907] (-) TimerEvent: {}
+[28.390332] (-) TimerEvent: {}
+[28.490758] (-) TimerEvent: {}
+[28.591102] (-) TimerEvent: {}
+[28.691547] (-) TimerEvent: {}
+[28.791842] (-) TimerEvent: {}
+[28.892123] (-) TimerEvent: {}
+[28.992552] (-) TimerEvent: {}
+[29.092887] (-) TimerEvent: {}
+[29.193329] (-) TimerEvent: {}
+[29.293745] (-) TimerEvent: {}
+[29.394159] (-) TimerEvent: {}
+[29.494383] (-) TimerEvent: {}
+[29.594797] (-) TimerEvent: {}
+[29.695221] (-) TimerEvent: {}
+[29.795522] (-) TimerEvent: {}
+[29.895955] (-) TimerEvent: {}
+[29.996376] (-) TimerEvent: {}
+[30.096792] (-) TimerEvent: {}
+[30.197217] (-) TimerEvent: {}
+[30.297444] (-) TimerEvent: {}
+[30.397691] (-) TimerEvent: {}
+[30.498002] (-) TimerEvent: {}
+[30.598467] (-) TimerEvent: {}
+[30.699059] (-) TimerEvent: {}
+[30.799281] (-) TimerEvent: {}
+[30.899589] (-) TimerEvent: {}
+[30.999994] (-) TimerEvent: {}
+[31.100408] (-) TimerEvent: {}
+[31.200789] (-) TimerEvent: {}
+[31.301238] (-) TimerEvent: {}
+[31.401649] (-) TimerEvent: {}
+[31.502079] (-) TimerEvent: {}
+[31.602335] (-) TimerEvent: {}
+[31.702574] (-) TimerEvent: {}
+[31.803014] (-) TimerEvent: {}
+[31.903435] (-) TimerEvent: {}
+[32.003854] (-) TimerEvent: {}
+[32.104085] (-) TimerEvent: {}
+[32.204579] (-) TimerEvent: {}
+[32.305004] (-) TimerEvent: {}
+[32.405417] (-) TimerEvent: {}
+[32.505663] (-) TimerEvent: {}
+[32.606088] (-) TimerEvent: {}
+[32.706351] (-) TimerEvent: {}
+[32.806568] (-) TimerEvent: {}
+[32.906997] (-) TimerEvent: {}
+[33.007208] (-) TimerEvent: {}
+[33.107614] (-) TimerEvent: {}
+[33.208030] (-) TimerEvent: {}
+[33.308373] (-) TimerEvent: {}
+[33.408641] (-) TimerEvent: {}
+[33.509024] (-) TimerEvent: {}
+[33.609577] (-) TimerEvent: {}
+[33.709996] (-) TimerEvent: {}
+[33.810332] (-) TimerEvent: {}
+[33.910622] (-) TimerEvent: {}
+[34.010938] (-) TimerEvent: {}
+[34.111378] (-) TimerEvent: {}
+[34.211828] (-) TimerEvent: {}
+[34.312124] (-) TimerEvent: {}
+[34.412533] (-) TimerEvent: {}
+[34.512965] (-) TimerEvent: {}
+[34.613375] (-) TimerEvent: {}
+[34.713799] (-) TimerEvent: {}
+[34.814223] (-) TimerEvent: {}
+[34.914640] (-) TimerEvent: {}
+[35.014939] (-) TimerEvent: {}
+[35.115392] (-) TimerEvent: {}
+[35.215813] (-) TimerEvent: {}
+[35.316231] (-) TimerEvent: {}
+[35.416660] (-) TimerEvent: {}
+[35.517100] (-) TimerEvent: {}
+[35.617356] (-) TimerEvent: {}
+[35.717767] (-) TimerEvent: {}
+[35.818196] (-) TimerEvent: {}
+[35.918432] (-) TimerEvent: {}
+[36.018723] (-) TimerEvent: {}
+[36.118984] (-) TimerEvent: {}
+[36.219406] (-) TimerEvent: {}
+[36.319834] (-) TimerEvent: {}
+[36.420249] (-) TimerEvent: {}
+[36.520499] (-) TimerEvent: {}
+[36.620828] (-) TimerEvent: {}
+[36.721278] (-) TimerEvent: {}
+[36.821691] (-) TimerEvent: {}
+[36.922043] (-) TimerEvent: {}
+[37.022381] (-) TimerEvent: {}
+[37.122806] (-) TimerEvent: {}
+[37.223187] (-) TimerEvent: {}
+[37.323525] (-) TimerEvent: {}
+[37.423966] (-) TimerEvent: {}
+[37.524379] (-) TimerEvent: {}
+[37.624794] (-) TimerEvent: {}
+[37.725038] (-) TimerEvent: {}
+[37.825403] (-) TimerEvent: {}
+[37.925663] (-) TimerEvent: {}
+[38.025929] (-) TimerEvent: {}
+[38.126326] (-) TimerEvent: {}
+[38.226555] (-) TimerEvent: {}
+[38.326888] (-) TimerEvent: {}
+[38.427232] (-) TimerEvent: {}
+[38.527589] (-) TimerEvent: {}
+[38.628022] (-) TimerEvent: {}
+[38.728440] (-) TimerEvent: {}
+[38.828851] (-) TimerEvent: {}
+[38.929271] (-) TimerEvent: {}
+[39.029613] (-) TimerEvent: {}
+[39.130049] (-) TimerEvent: {}
+[39.230311] (-) TimerEvent: {}
+[39.330533] (-) TimerEvent: {}
+[39.430836] (-) TimerEvent: {}
+[39.531279] (-) TimerEvent: {}
+[39.631691] (-) TimerEvent: {}
+[39.732105] (-) TimerEvent: {}
+[39.832363] (-) TimerEvent: {}
+[39.932577] (-) TimerEvent: {}
+[40.032982] (-) TimerEvent: {}
+[40.133405] (-) TimerEvent: {}
+[40.233652] (-) TimerEvent: {}
+[40.334132] (-) TimerEvent: {}
+[40.434333] (-) TimerEvent: {}
+[40.534555] (-) TimerEvent: {}
+[40.634859] (-) TimerEvent: {}
+[40.735304] (-) TimerEvent: {}
+[40.835718] (-) TimerEvent: {}
+[40.935935] (-) TimerEvent: {}
+[41.036198] (-) TimerEvent: {}
+[41.136508] (-) TimerEvent: {}
+[41.236845] (-) TimerEvent: {}
+[41.337122] (-) TimerEvent: {}
+[41.437375] (-) TimerEvent: {}
+[41.537702] (-) TimerEvent: {}
+[41.638009] (-) TimerEvent: {}
+[41.738335] (-) TimerEvent: {}
+[41.838640] (-) TimerEvent: {}
+[41.939035] (-) TimerEvent: {}
+[42.039446] (-) TimerEvent: {}
+[42.139737] (-) TimerEvent: {}
+[42.240180] (-) TimerEvent: {}
+[42.340509] (-) TimerEvent: {}
+[42.440807] (-) TimerEvent: {}
+[42.541106] (-) TimerEvent: {}
+[42.641371] (-) TimerEvent: {}
+[42.741778] (-) TimerEvent: {}
+[42.842204] (-) TimerEvent: {}
+[42.942619] (-) TimerEvent: {}
+[43.043057] (-) TimerEvent: {}
+[43.143467] (-) TimerEvent: {}
+[43.243897] (-) TimerEvent: {}
+[43.344165] (-) TimerEvent: {}
+[43.444592] (-) TimerEvent: {}
+[43.545005] (-) TimerEvent: {}
+[43.645415] (-) TimerEvent: {}
+[43.745836] (-) TimerEvent: {}
+[43.846125] (-) TimerEvent: {}
+[43.946323] (-) TimerEvent: {}
+[44.046540] (-) TimerEvent: {}
+[44.146853] (-) TimerEvent: {}
+[44.247282] (-) TimerEvent: {}
+[44.347585] (-) TimerEvent: {}
+[44.447843] (-) TimerEvent: {}
+[44.548114] (-) TimerEvent: {}
+[44.648537] (-) TimerEvent: {}
+[44.748950] (-) TimerEvent: {}
+[44.849247] (-) TimerEvent: {}
+[44.949688] (-) TimerEvent: {}
+[45.050111] (-) TimerEvent: {}
+[45.150337] (-) TimerEvent: {}
+[45.250769] (-) TimerEvent: {}
+[45.351183] (-) TimerEvent: {}
+[45.451401] (-) TimerEvent: {}
+[45.551652] (-) TimerEvent: {}
+[45.651951] (-) TimerEvent: {}
+[45.752241] (-) TimerEvent: {}
+[45.852689] (-) TimerEvent: {}
+[45.953117] (-) TimerEvent: {}
+[46.053527] (-) TimerEvent: {}
+[46.153951] (-) TimerEvent: {}
+[46.254379] (-) TimerEvent: {}
+[46.354667] (-) TimerEvent: {}
+[46.455111] (-) TimerEvent: {}
+[46.555522] (-) TimerEvent: {}
+[46.655742] (-) TimerEvent: {}
+[46.756163] (-) TimerEvent: {}
+[46.856579] (-) TimerEvent: {}
+[46.956988] (-) TimerEvent: {}
+[47.057419] (-) TimerEvent: {}
+[47.157775] (-) TimerEvent: {}
+[47.258244] (-) TimerEvent: {}
+[47.358661] (-) TimerEvent: {}
+[47.458882] (-) TimerEvent: {}
+[47.559291] (-) TimerEvent: {}
+[47.659703] (-) TimerEvent: {}
+[47.760123] (-) TimerEvent: {}
+[47.860549] (-) TimerEvent: {}
+[47.960963] (-) TimerEvent: {}
+[48.061404] (-) TimerEvent: {}
+[48.161816] (-) TimerEvent: {}
+[48.262110] (-) TimerEvent: {}
+[48.362363] (-) TimerEvent: {}
+[48.462698] (-) TimerEvent: {}
+[48.563119] (-) TimerEvent: {}
+[48.663533] (-) TimerEvent: {}
+[48.764027] (-) TimerEvent: {}
+[48.864325] (-) TimerEvent: {}
+[48.964648] (-) TimerEvent: {}
+[49.064995] (-) TimerEvent: {}
+[49.165484] (-) TimerEvent: {}
+[49.265916] (-) TimerEvent: {}
+[49.366315] (-) TimerEvent: {}
+[49.466955] (-) TimerEvent: {}
+[49.567439] (-) TimerEvent: {}
+[49.667877] (-) TimerEvent: {}
+[49.768085] (-) TimerEvent: {}
+[49.868505] (-) TimerEvent: {}
+[49.968917] (-) TimerEvent: {}
+[50.069334] (-) TimerEvent: {}
+[50.169750] (-) TimerEvent: {}
+[50.270203] (-) TimerEvent: {}
+[50.370619] (-) TimerEvent: {}
+[50.470856] (-) TimerEvent: {}
+[50.571181] (-) TimerEvent: {}
+[50.671608] (-) TimerEvent: {}
+[50.772030] (-) TimerEvent: {}
+[50.872445] (-) TimerEvent: {}
+[50.972735] (-) TimerEvent: {}
+[51.072996] (-) TimerEvent: {}
+[51.173438] (-) TimerEvent: {}
+[51.273865] (-) TimerEvent: {}
+[51.374289] (-) TimerEvent: {}
+[51.474502] (-) TimerEvent: {}
+[51.574819] (-) TimerEvent: {}
+[51.675109] (-) TimerEvent: {}
+[51.775348] (-) TimerEvent: {}
+[51.875793] (-) TimerEvent: {}
+[51.976195] (-) TimerEvent: {}
+[52.076484] (-) TimerEvent: {}
+[52.176936] (-) TimerEvent: {}
+[52.277354] (-) TimerEvent: {}
+[52.377563] (-) TimerEvent: {}
+[52.477970] (-) TimerEvent: {}
+[52.578325] (-) TimerEvent: {}
+[52.678539] (-) TimerEvent: {}
+[52.778974] (-) TimerEvent: {}
+[52.879369] (-) TimerEvent: {}
+[52.979845] (-) TimerEvent: {}
+[53.080348] (-) TimerEvent: {}
+[53.180739] (-) TimerEvent: {}
+[53.281040] (-) TimerEvent: {}
+[53.381360] (-) TimerEvent: {}
+[53.481611] (-) TimerEvent: {}
+[53.581975] (-) TimerEvent: {}
+[53.682219] (-) TimerEvent: {}
+[53.782483] (-) TimerEvent: {}
+[53.882702] (-) TimerEvent: {}
+[53.982945] (-) TimerEvent: {}
+[54.083330] (-) TimerEvent: {}
+[54.183747] (-) TimerEvent: {}
+[54.284160] (-) TimerEvent: {}
+[54.384463] (-) TimerEvent: {}
+[54.484850] (-) TimerEvent: {}
+[54.585087] (-) TimerEvent: {}
+[54.685504] (-) TimerEvent: {}
+[54.785856] (-) TimerEvent: {}
+[54.886163] (-) TimerEvent: {}
+[54.986480] (-) TimerEvent: {}
+[55.086688] (-) TimerEvent: {}
+[55.186929] (-) TimerEvent: {}
+[55.287219] (-) TimerEvent: {}
+[55.387626] (-) TimerEvent: {}
+[55.488017] (-) TimerEvent: {}
+[55.588271] (-) TimerEvent: {}
+[55.688521] (-) TimerEvent: {}
+[55.788780] (-) TimerEvent: {}
+[55.889100] (-) TimerEvent: {}
+[55.989440] (-) TimerEvent: {}
+[56.089710] (-) TimerEvent: {}
+[56.189929] (-) TimerEvent: {}
+[56.290149] (-) TimerEvent: {}
+[56.390532] (-) TimerEvent: {}
+[56.490818] (-) TimerEvent: {}
+[56.591061] (-) TimerEvent: {}
+[56.691311] (-) TimerEvent: {}
+[56.791659] (-) TimerEvent: {}
+[56.892408] (-) TimerEvent: {}
+[56.992759] (-) TimerEvent: {}
+[57.093118] (-) TimerEvent: {}
+[57.193467] (-) TimerEvent: {}
+[57.293809] (-) TimerEvent: {}
+[57.394171] (-) TimerEvent: {}
+[57.494396] (-) TimerEvent: {}
+[57.594658] (-) TimerEvent: {}
+[57.694871] (-) TimerEvent: {}
+[57.795095] (-) TimerEvent: {}
+[57.895428] (-) TimerEvent: {}
+[57.995788] (-) TimerEvent: {}
+[58.096026] (-) TimerEvent: {}
+[58.196353] (-) TimerEvent: {}
+[58.296817] (-) TimerEvent: {}
+[58.397230] (-) TimerEvent: {}
+[58.497648] (-) TimerEvent: {}
+[58.597858] (-) TimerEvent: {}
+[58.698324] (-) TimerEvent: {}
+[58.798609] (-) TimerEvent: {}
+[58.899024] (-) TimerEvent: {}
+[58.999441] (-) TimerEvent: {}
+[59.099919] (-) TimerEvent: {}
+[59.200336] (-) TimerEvent: {}
+[59.300747] (-) TimerEvent: {}
+[59.401168] (-) TimerEvent: {}
+[59.501487] (-) TimerEvent: {}
+[59.601884] (-) TimerEvent: {}
+[59.702140] (-) TimerEvent: {}
+[59.802363] (-) TimerEvent: {}
+[59.902617] (-) TimerEvent: {}
+[60.002839] (-) TimerEvent: {}
+[60.024760] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[60.024919] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[60.066533] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[60.102926] (-) TimerEvent: {}
+[60.203353] (-) TimerEvent: {}
+[60.303767] (-) TimerEvent: {}
+[60.404071] (-) TimerEvent: {}
+[60.504346] (-) TimerEvent: {}
+[60.604771] (-) TimerEvent: {}
+[60.705177] (-) TimerEvent: {}
+[60.805422] (-) TimerEvent: {}
+[60.905680] (-) TimerEvent: {}
+[61.005914] (-) TimerEvent: {}
+[61.106317] (-) TimerEvent: {}
+[61.206532] (-) TimerEvent: {}
+[61.306800] (-) TimerEvent: {}
+[61.407147] (-) TimerEvent: {}
+[61.507435] (-) TimerEvent: {}
+[61.607844] (-) TimerEvent: {}
+[61.708194] (-) TimerEvent: {}
+[61.808429] (-) TimerEvent: {}
+[61.908795] (-) TimerEvent: {}
+[62.009066] (-) TimerEvent: {}
+[62.109282] (-) TimerEvent: {}
+[62.209496] (-) TimerEvent: {}
+[62.309727] (-) TimerEvent: {}
+[62.409958] (-) TimerEvent: {}
+[62.510180] (-) TimerEvent: {}
+[62.610442] (-) TimerEvent: {}
+[62.710738] (-) TimerEvent: {}
+[62.811059] (-) TimerEvent: {}
+[62.911460] (-) TimerEvent: {}
+[63.011734] (-) TimerEvent: {}
+[63.112026] (-) TimerEvent: {}
+[63.212323] (-) TimerEvent: {}
+[63.312554] (-) TimerEvent: {}
+[63.412950] (-) TimerEvent: {}
+[63.513205] (-) TimerEvent: {}
+[63.613575] (-) TimerEvent: {}
+[63.713979] (-) TimerEvent: {}
+[63.814292] (-) TimerEvent: {}
+[63.914660] (-) TimerEvent: {}
+[64.014991] (-) TimerEvent: {}
+[64.115209] (-) TimerEvent: {}
+[64.215504] (-) TimerEvent: {}
+[64.315954] (-) TimerEvent: {}
+[64.416267] (-) TimerEvent: {}
+[64.516582] (-) TimerEvent: {}
+[64.616889] (-) TimerEvent: {}
+[64.717300] (-) TimerEvent: {}
+[64.817709] (-) TimerEvent: {}
+[64.918164] (-) TimerEvent: {}
+[65.018447] (-) TimerEvent: {}
+[65.118738] (-) TimerEvent: {}
+[65.219185] (-) TimerEvent: {}
+[65.319451] (-) TimerEvent: {}
+[65.419814] (-) TimerEvent: {}
+[65.520235] (-) TimerEvent: {}
+[65.620667] (-) TimerEvent: {}
+[65.720932] (-) TimerEvent: {}
+[65.821145] (-) TimerEvent: {}
+[65.921562] (-) TimerEvent: {}
+[65.964807] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[65.987626] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[66.008003] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[66.014355] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/astrox/astrobot_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[66.021659] (-) TimerEvent: {}
+[66.055431] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[66.060576] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[66.108746] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[66.114945] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[66.115098] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[66.115386] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[66.121756] (-) TimerEvent: {}
+[66.153161] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[66.157954] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[66.215387] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[66.221470] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[66.221659] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[66.221814] (-) TimerEvent: {}
+[66.221982] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[66.228475] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[66.284737] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[66.284955] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[66.321943] (-) TimerEvent: {}
+[66.339989] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[66.340654] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[66.350771] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[66.352287] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[66.352738] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[66.366739] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[66.394146] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[66.422095] (-) TimerEvent: {}
+[66.443598] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[66.461096] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[66.477850] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[66.494694] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[66.500840] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[66.504733] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[66.522163] (-) TimerEvent: {}
+[66.528434] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[66.528649] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[66.528712] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[66.528776] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[66.528826] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[66.528872] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[66.528919] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[66.528965] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[66.529011] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[66.529056] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[66.529101] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[66.529146] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[66.565922] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[66.572644] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[66.581301] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[66.581791] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/astrox/astrobot_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[66.595708] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[66.622294] (-) TimerEvent: {}
+[66.629521] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[66.630001] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[66.630166] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[66.630251] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[66.630339] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[66.630433] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[66.630510] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[66.630586] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[66.630704] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[66.631236] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[66.631377] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[66.632828] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[66.722387] (-) TimerEvent: {}
+[66.822707] (-) TimerEvent: {}
+[66.923022] (-) TimerEvent: {}
+[67.023381] (-) TimerEvent: {}
+[67.123776] (-) TimerEvent: {}
+[67.224189] (-) TimerEvent: {}
+[67.324600] (-) TimerEvent: {}
+[67.424978] (-) TimerEvent: {}
+[67.525395] (-) TimerEvent: {}
+[67.632565] (-) TimerEvent: {}
+[67.747137] (-) TimerEvent: {}
+[67.848922] (-) TimerEvent: {}
+[67.954439] (-) TimerEvent: {}
+[68.056483] (-) TimerEvent: {}
+[68.156855] (-) TimerEvent: {}
+[68.261021] (-) TimerEvent: {}
+[68.361569] (-) TimerEvent: {}
+[68.465409] (-) TimerEvent: {}
+[68.565822] (-) TimerEvent: {}
+[68.599959] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[68.600245] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[68.600394] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[68.618541] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[68.665957] (-) TimerEvent: {}
+[68.766387] (-) TimerEvent: {}
+[68.876475] (-) TimerEvent: {}
+[68.978094] (-) TimerEvent: {}
+[69.078503] (-) TimerEvent: {}
+[69.182629] (-) TimerEvent: {}
+[69.283228] (-) TimerEvent: {}
+[69.383619] (-) TimerEvent: {}
+[69.484061] (-) TimerEvent: {}
+[69.490311] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[69.566710] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[69.584171] (-) TimerEvent: {}
+[69.684584] (-) TimerEvent: {}
+[69.784964] (-) TimerEvent: {}
+[69.885461] (-) TimerEvent: {}
+[69.985850] (-) TimerEvent: {}
+[70.089540] (-) TimerEvent: {}
+[70.190719] (-) TimerEvent: {}
+[70.294096] (-) TimerEvent: {}
+[70.300200] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[70.394386] (-) TimerEvent: {}
+[70.494751] (-) TimerEvent: {}
+[70.595134] (-) TimerEvent: {}
+[70.695537] (-) TimerEvent: {}
+[70.795949] (-) TimerEvent: {}
+[70.900887] (-) TimerEvent: {}
+[71.001345] (-) TimerEvent: {}
+[71.101835] (-) TimerEvent: {}
+[71.202292] (-) TimerEvent: {}
+[71.304734] (-) TimerEvent: {}
+[71.408256] (-) TimerEvent: {}
+[71.512876] (-) TimerEvent: {}
+[71.618113] (-) TimerEvent: {}
+[71.724278] (-) TimerEvent: {}
+[71.826311] (-) TimerEvent: {}
+[71.927397] (-) TimerEvent: {}
+[72.030751] (-) TimerEvent: {}
+[72.133307] (-) TimerEvent: {}
+[72.235858] (-) TimerEvent: {}
+[72.337833] (-) TimerEvent: {}
+[72.443241] (-) TimerEvent: {}
+[72.549730] (-) TimerEvent: {}
+[72.656251] (-) TimerEvent: {}
+[72.760078] (-) TimerEvent: {}
+[72.865303] (-) TimerEvent: {}
+[72.970574] (-) TimerEvent: {}
+[73.075748] (-) TimerEvent: {}
+[73.182464] (-) TimerEvent: {}
+[73.300610] (-) TimerEvent: {}
+[73.468118] (-) TimerEvent: {}
+[73.733777] (-) TimerEvent: {}
+[74.112498] (-) TimerEvent: {}
+[74.448695] (-) TimerEvent: {}
+[74.623465] (-) TimerEvent: {}
+[74.864596] (-) TimerEvent: {}
+[75.109238] (-) TimerEvent: {}
+[75.246177] (-) TimerEvent: {}
+[75.360869] (-) TimerEvent: {}
+[75.603617] (-) TimerEvent: {}
+[75.833456] (-) TimerEvent: {}
+[76.093505] (-) TimerEvent: {}
+[76.269709] (-) TimerEvent: {}
+[76.628364] (-) TimerEvent: {}
+[76.889334] (-) TimerEvent: {}
+[77.177549] (-) TimerEvent: {}
+[77.440541] (-) TimerEvent: {}
+[77.716910] (-) TimerEvent: {}
+[78.056374] (-) TimerEvent: {}
+[78.245285] (-) TimerEvent: {}
+[78.507340] (-) TimerEvent: {}
+[78.768125] (-) TimerEvent: {}
+[79.109415] (-) TimerEvent: {}
+[79.423807] (-) TimerEvent: {}
+[79.649995] (-) TimerEvent: {}
+[80.049986] (-) TimerEvent: {}
+[80.414051] (-) TimerEvent: {}
+[80.761201] (-) TimerEvent: {}
+[81.048057] (-) TimerEvent: {}
+[81.326754] (-) TimerEvent: {}
+[81.753080] (-) TimerEvent: {}
+[87.538654] (-) TimerEvent: {}
+[146.505898] (-) TimerEvent: {}
